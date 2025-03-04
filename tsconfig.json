@@ -12,5 +12,12 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "nativewind-env.d.ts"
-  ]
+  ],
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": ["lucide-react-native", "@lucide/lab", "date-fns"]
+      }
+    }
+  }
 }
